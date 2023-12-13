@@ -1,0 +1,127 @@
+*{
+    /* background-color: black; */
+    font-family: url(https://fonts.google.com/specimen/Overpass);
+    color: #f0f8ff;
+}
+
+:root{
+    --orange: #ff7b00;
+    --white: #f0f8ff;
+    --grey : #b5b5b5;
+    --blue:rgb(45, 45, 64);
+    --dim :#848484;
+    --fontmed : 400;
+    --fontlarge : 700;
+}
+
+.parentdiv{
+    width: 100vw;
+    height: 100vh;
+}
+
+.cd{
+    width: fit-content;
+    height: 400px;
+    background-color: var(--blue);
+    /* background-image: linear-gradient(180deg,rgb(107, 107, 107),black); */
+}
+
+h1, button{
+    color: var(--white);
+}
+
+.sub{
+    color: white;
+    background-color: var(--orange);
+    box-shadow: 0px 5px 1px black;
+}
+
+.imgbtn, .buttons{
+    width: 40px;
+    height: 40px;
+    background-color: var(--dim);
+}
+
+.addcolor{
+    background-color: #b5b5b5;
+
+}
+
+.buttons:hover{
+    background-color: #b5b5b5;
+}
+
+p{
+    color: var(--grey);
+}
+
+.paralag{
+    display: block;
+}
+
+.parasml{
+    display: none;
+}
+
+.paramlag{
+    display: block;
+}
+
+.paramsml{
+    display: none;
+}
+
+@keyframes MCAnime{
+    from{
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+    to{
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+}
+
+
+@keyframes MCAnimerev{
+    from{
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+    to{
+        transform: rotate(-360deg);
+        opacity: 1;
+    }
+}
+
+
+@media only screen and (max-width: 425px){
+    .parentdiv{
+        width: 90vw;
+        height: 100vh;
+        margin-left: 5vw;
+    }
+
+    .paralag{
+        display: none;
+    }
+
+    .parasml{
+        display: block;
+    }
+
+    .paramlag{
+        display: none;
+    }
+    
+    .paramsml{
+        display: block;
+    }
+    
+    .cd{
+        width: fit-content;
+        height: 400px;
+        background-color: var(--blue);
+        /* background-image: linear-gradient(180deg,rgb(107, 107, 107),black); */
+    }
+}
