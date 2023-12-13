@@ -95,6 +95,23 @@ p{
 }
 
 
+.footerelement:any-link{
+    color: #ff7b00;
+    text-decoration: none;
+    
+}
+
+.footerelement:hover{
+    text-decoration: underline;
+    background-color: #383838;
+    padding: 2px 5px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    animation-name: hovered;
+    animation-duration: 2s;
+}
+
 @media only screen and (max-width: 425px){
     .parentdiv{
         width: 90vw;
