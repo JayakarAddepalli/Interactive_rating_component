@@ -114,7 +114,7 @@ p{
 @media only screen and (max-width: 425px){
     .parentdiv{
         width: 90vw;
-        height: 90vh;
+        height: 85vh;
         margin-left: 5vw;
     }
 
