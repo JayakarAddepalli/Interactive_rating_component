@@ -114,7 +114,7 @@ p{
 @media only screen and (max-width: 425px){
     .parentdiv{
         width: 90vw;
-        height: 95vh;
+        height: 90vh;
         margin-left: 5vw;
     }
 
@@ -139,5 +139,10 @@ p{
         height: 400px;
         background-color: var(--blue);
         /* background-image: linear-gradient(180deg,rgb(107, 107, 107),black); */
+    }
+    
+    .attribution{
+        width: 100vw;
+        padding: 10px;
     }
 }
